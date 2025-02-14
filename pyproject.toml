@@ -20,3 +20,7 @@ license = { text = "MIT" }
 Homepage = "https://github.com/gastonfr24/OptimalBins"
 Repository = "https://github.com/gastonfr24/OptimalBins"
 Tracker = "https://github.com/gastonfr24/OptimalBins/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = ["demos*", "tests*"]
