@@ -1,9 +1,9 @@
 import unittest
 import matplotlib.pyplot as plt
-from models.item import Item
-from models.bin import Bin
-from algorithms._2d.guillotine import Guillotine2D
-from common.packing_result import PackingResult
+from optimalbins.models.item import Item
+from optimalbins.models.bin import Bin
+from optimalbins.algorithms._2d.guillotine import Guillotine2D
+from optimalbins.common.packing_result import PackingResult
 
 class TestGuillotineHeuristics(unittest.TestCase):
     def setUp(self):

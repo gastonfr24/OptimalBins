@@ -1,9 +1,9 @@
 import unittest
-from models.item import Item
-from models.bin import Bin
-from models.manager import BinManager
-from algorithms._2d.bottom_left import BottomLeft2D
-from config import VERBOSE, DEFAULT_DIMENSION
+from optimalbins.models.item import Item
+from optimalbins.models.bin import Bin
+from optimalbins.models.manager import BinManager
+from optimalbins.algorithms._2d.bottom_left import BottomLeft2D
+from optimalbins.config import DEFAULT_DIMENSION
 
 import matplotlib
 # Usamos un backend no interactivo para que plt.show() no bloquee en testing.
@@ -65,7 +65,7 @@ class TestBinPacking(unittest.TestCase):
         """
         Verifica que el reporte generado contenga la información esperada.
         """
-        report = self.manager.report(verbose=VERBOSE)
+        report = self.manager.report(verbose=True)
         self.assertIsInstance(report, str)
         self.assertIn("Reporte de Empaquetado", report)
         print("\nReporte de Empaquetado:")
