@@ -6,10 +6,10 @@ import matplotlib
 # matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-from models.item import Item
-from models.bin import Bin
-from algorithms._2d.maxrects import MaxRects2D
-from common.packing_result import PackingResult
+from optimalbins.models.item import Item
+from optimalbins.models.bin import Bin
+from optimalbins.algorithms._2d.maxrects import MaxRects2D
+from optimalbins.common.packing_result import PackingResult
 
 class TestMaxRects2D(unittest.TestCase):
     def setUp(self) -> None:

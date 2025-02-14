@@ -1,8 +1,8 @@
 from typing import List, Dict, Any
-from algorithms.base import BaseBinPacking
-from models.item import Item
-from models.bin import Bin
-from common.packing_result import PackingResult
+from optimalbins.algorithms.base import BaseBinPacking
+from optimalbins.models.item import Item
+from optimalbins.models.bin import Bin
+from optimalbins.common.packing_result import PackingResult
 
 class FirstFit2D(BaseBinPacking):
     def pack(self, items: List[Item], bins: List[Bin], **kwargs: Any) -> PackingResult:

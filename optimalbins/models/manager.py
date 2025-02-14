@@ -2,9 +2,8 @@ from typing import Optional, List, Dict, Any, Literal
 from models.item import Item
 from models.bin import Bin
 from algorithms.base import BaseBinPacking
-from common.packing_result import PackingResult
-
-from algorithms._2d.bottom_left import BottomLeft2D
+from optimalbins.common.packing_result import PackingResult
+from optimalbins.algorithms._2d.bottom_left import BottomLeft2D
 
 class BinManager:
     def __init__(

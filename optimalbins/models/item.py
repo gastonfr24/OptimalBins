@@ -1,7 +1,7 @@
 from typing import Optional, Tuple, Union, List
 from itertools import permutations
-from common.constants import RotationType
-from config import DEFAULT_NUMBER_OF_DECIMALS
+from optimalbins.common.constants import RotationType
+from optimalbins.config import DEFAULT_NUMBER_OF_DECIMALS
 
 START_POSITION = [0, 0, 0]
 

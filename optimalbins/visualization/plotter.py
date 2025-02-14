@@ -1,7 +1,7 @@
 from typing import List
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
-from models.bin import Bin
+from optimalbins.models.bin import Bin
 
 def plot_bins(bins: List[Bin], show_free_rectangles: bool = True) -> None:
     """

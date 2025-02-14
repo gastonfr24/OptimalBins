@@ -1,5 +1,5 @@
 from typing import List, Dict, Any
-from models.bin import Bin
+from optimalbins.models.bin import Bin
 
 class PackingResult:
     def __init__(self, bins: List[Bin], metrics: Dict[str, Any]) -> None:

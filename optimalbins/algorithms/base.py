@@ -1,8 +1,8 @@
 from abc import ABC, abstractmethod
 from typing import List, Dict, Any
-from models.item import Item
-from models.bin import Bin
-from common.packing_result import PackingResult
+from optimalbins.models.item import Item
+from optimalbins.models.bin import Bin
+from optimalbins.common.packing_result import PackingResult
 
 class BaseBinPacking(ABC):
     @abstractmethod

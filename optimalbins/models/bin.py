@@ -1,5 +1,5 @@
 from typing import Optional, List
-from models.item import Item
+from optimalbins.models.item import Item
 
 class Bin:
     def __init__(

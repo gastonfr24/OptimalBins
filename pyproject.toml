@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "optimalbins"
+version = "0.1.0"
+description = "Librería para bin packing"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+  "matplotlib==3.10.0"
+]
+authors = [
+  { name = "Gastón Franco", email = "gastonfr24@gmail.com" }
+]
+license = { text = "MIT" }
+
+[project.urls]
+Homepage = "https://github.com/gastonfr24/OptimalBins"
+Repository = "https://github.com/gastonfr24/OptimalBins"
+Tracker = "https://github.com/gastonfr24/OptimalBins/issues"
