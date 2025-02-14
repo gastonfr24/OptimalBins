@@ -1,7 +1,7 @@
 from typing import Optional, List, Dict, Any, Literal
-from models.item import Item
-from models.bin import Bin
-from algorithms.base import BaseBinPacking
+from optimalbins.models.item import Item
+from optimalbins.models.bin import Bin
+from optimalbins.algorithms.base import BaseBinPacking
 from optimalbins.common.packing_result import PackingResult
 from optimalbins.algorithms._2d.bottom_left import BottomLeft2D
 
