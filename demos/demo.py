@@ -2,11 +2,11 @@ import matplotlib.pyplot as plt
 # Opcional: usa un backend interactivo (por ejemplo, TkAgg)
 plt.switch_backend('TkAgg')
 
-from models.item import Item
-from models.bin import Bin
-from models.manager import BinManager
-from algorithms._2d.bottom_left import BottomLeft2D
-from config import VERBOSE, DEFAULT_DIMENSION
+from optimalbins.models.item import Item
+from optimalbins.models.bin import Bin
+from optimalbins.models.manager import BinManager
+from optimalbins.algorithms._2d.bottom_left import BottomLeft2D
+from optimalbins.config import VERBOSE, DEFAULT_DIMENSION
 
 def main():
     # Crear algunos items de ejemplo
